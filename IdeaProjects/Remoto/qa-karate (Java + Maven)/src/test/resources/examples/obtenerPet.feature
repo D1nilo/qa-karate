@@ -3,6 +3,7 @@ Feature: Pet - Obtener mascotas
   Background:
     * url baseUrl
 
+
   @pet @list @available
   Scenario: Obtener mascotas disponibles
     Given path 'pet', 'findByStatus'
